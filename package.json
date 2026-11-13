@@ -1,7 +1,7 @@
 {
   "name": "claude-code-history-viewer",
   "private": true,
-  "version": "1.33.0",
+  "version": "1.33.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -115,5 +115,6 @@
       "eslint"
     ],
     "src-tauri/src/**/*.rs": "bash -c 'cargo fmt --manifest-path src-tauri/Cargo.toml -- --check && cargo clippy --manifest-path src-tauri/Cargo.toml --all-targets --all-features -- -D warnings'"
-  }
+  },
+  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad"
 }
